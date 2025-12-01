@@ -43,3 +43,5 @@ O zájemce mých skužeb.
 - **Data:** JSON 
     
 - **Verzování:** Git + GitHub
+
+- **Backend:** PHP
