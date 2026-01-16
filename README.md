@@ -1,47 +1,57 @@
 ## **Název projektu**
-
-Vizitka
+Vizitka / Osobní webové portfolio
 
 ## **Žák**
-
 Josef Michalec
 
 ## **Stručný popis tématu (3–5 vět)**
-
-Je to jednoduchá jedno­stránková webová vizitka, kde o sobě rychle a přehledně řeknu to nejdůležitější. Najdeš tam moje představení, kontakt a odkazy, kam potřebuji návštěvníky nasměrovat. Celá stránka bude působit moderně a stručně, aby každý hned pochopil, kdo jsem a co nabízím.
+Jednoduchá responzivní jedno­stránková vizitka/portfolio s temným atmosférickým designem. Stránka slouží k rychlému představení autora, jeho zájmů a technických dovedností. Obsahuje interaktivní prvky (Kurzor s následovníkem, dynamické načítání dat přes AJAX/fetch z vlastního backendu). Cílem je vytvořit moderní, přehlednou a technicky zajímavou prezentaci, která ukazuje jak design, tak programování.
 
 ## **Cílová skupina**
-
-O zájemce mých skužeb.
+- Potenciální zaměstnavatelé a klienti v IT oblasti
+- Lidé se zájmem o webový vývoj, technologie a kreativní projekty
+- Širší komunita (přátelé, spolužáci, sociální sítě)
 
 ## **Návrh obsahových sekcí**
 
-- **Úvodní sekce** – jméno, krátký claim, profilová fotka.
-    
-- **O mně** – stručné představení, kdo jsem a čemu se věnuju.
-    
-- **Co nabízím / Čemu se věnuju** – hlavní služby, specializace nebo silné stránky.
-    
-- **Portfolio / Ukázky práce** – vybrané projekty, reference, výsledky.
-    
-- **Kontakt** – e-mail, telefon, odkazy na sociální sítě, případně formulář.
-    
-- **Footer** – drobné info, autorská poznámka, odkaz na CV apod.
-    
+* **Úvodní sekce**  
+  Velký nadpis.
+
+* **O mně**  
+  Stručné představení, dynamicky načtený obsah přes AJAX z vlastního backendu.
+
+* **Dovednosti / Zajímavosti**  
+  Seznam technických a osobních dovedností / zájmů.
+
+* **Interaktivní prvky**  
+  Kurzor s následujícím objektem, případně další malé animace.
+
+* **Kontakt**  
+  Kontaktní údaje, odkazy na sociální sítě / profily, případně jednoduchý formulář.
+
+* **Footer**  
+  Copyright, drobná poznámka, případně odkaz na repozitář nebo další materiály.
+
 ## **Návrh designu / wireframe**
 
-- Minimalistický a čistý vzhled, hodně bílého prostoru.
-    
-- Jemná paleta 2–3 barev.
-    
-- Moderní bezpatkové písmo, kombinace tučného nadpisu a lehkého textu.
+* Tmavý minimalistický styl s výraznými akcenty  
+* Tmavá paleta barev s jedním dominantním akcentem  
+* Kombinace speciálních fontů pro nadpisy a čitelného textu pro obsah  
+* Responzivní layout – mobile-first přístup  
+* Jemné interaktivní prvky a animace pro osobitost
 
 ## **Použité technologie**
 
-- **Frontend:** HTML, CSS 
-    
-- **Data:** JSON 
-    
-- **Verzování:** Git + GitHub
+* **Frontend:** HTML5, CSS3 (vlastní styly, keyframes), JavaScript (vanilla – fetch, event listeners, typewriter efekt, custom cursor s rotací)
 
-- **Backend:** PHP
+* **Interaktivní prvky:**  
+  - Kurzor s následujícím objektem 
+  - AJAX / fetch pro načítání dat bez refresh stránky
+
+* **Backend:** Node.js + Express (jednoduchý lokální server na portu 3001)
+
+* **Data:** JSON soubor (načítán přes fetch z endpointu /api/about)
+
+* **Verzování:** GitHub
+
+* **Vývojové nástroje:** VS Code + Live Server extension (lokální http server)
