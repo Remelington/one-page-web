@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -16,9 +15,8 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
-
     <section id="home" class="section home">
-        <h1>Sjálfr</h1>
+        <h1 id="burning-name">Sjálfr</h1>
         <p>The self that forges in the void.<br>
         Code dies, commits fade, even the coder perishes.<br>
         yet the work endures in the judgment of the living.</p>
@@ -26,7 +24,8 @@
 
     <section id="about" class="section">
         <h2>About me</h2>
-
+        <button id="load-about">Load About Me from Server</button>
+        <div id="about-container" class="about-content"></div>
     </section>
 
     <section id="skills" class="section">
@@ -59,10 +58,14 @@
     <section id="contact" class="section contact">
             <h2>Contacts</h2>
             <ul class="section-txt">
-                <li>+420 607 421 359</li>
+                <li>+420 123 456 789</li>
                 <li>josef.michalec023@skolavdf.cz</li>
                 <li>@sjalfr.sjalfr</li>
             </ul>
     </section>
+
+    <div id="cursor-trail"></div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
